@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#_header{
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    border-radius: 15px;
+    left: 4%;
+    max-width: 90%;
+}
+
+.fondo{
+    width: 100%;
+    max-width: 1480px;
+    max-height: 690px;
+    overflow: hidden;
+}
+.img_fon{
+    width:100%;
+    height: 100%;
+}
+
+.p__1 {
+    color: rgb(43, 42, 0);
+    font: 400 1em/1.5 "Neuton";
+    background: black; 
+    color: #ad5312cd;
+    text-align:center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double #ad5312cd;
+	border-width: 4px 0;
+	position: relative;
+    width:100%;
+}
+  
+header span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+}
+
+.tabla{
+    align-self: center;
+    max-width: 96%;
+    width: 90%;
+    color: #ad5312cd;
+    font-size: large;
+    margin: 3% 0 0 5%;
+    font-family: 'Raleway', sans-serif;
+    border-color: none;
+}
+
+.titulo{
+    color: #ad5312cd;
+    text-align:center;
+    font-size:70px;
+    height: 80px;
+    padding-bottom: 40px;
+
+}
+
+.imagen1{
+    width: 500px;
+    height: 400px;
+}
+
+.imagen2{
+    width: 750px;
+    height: 400px;
+    align-self: auto;
+    padding-left: 20px;
+}
+
+.imagen3{
+    width: 500px;
+    height: 400px;
+}
+
+.fila1 {
+    text-align: justify;
+}
+
+.fila2 {
+    text-align: justify;
+}
+
+.fila3 {
+    text-align: justify;
+}
+
+/*volver a pagina principal*/
+.menu_principal{
+    margin: 5% 0 0 12%;
+    width: 16%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.boton_volver{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.volver{
+    text-decoration: none;
+    color: #ad5312;
+    border-radius: 2px;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.volver:hover{
+    background-color:#ad5312;
+    font-weight: bolder;
+    color: black;
+    cursor:pointer;
+    transition: 350ms;
+}
+
+/*footer*/
+.pie{
+    width: 100%;
+    background-color: black;
+    font-family:'Raleway', sans-serif;
+    margin-top: 10%;
+}
+
+.pie .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+    height: 100px;
+
+}
+
+.pie .grupo-1 .box figure{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie .grupo-1 .box figure a img{
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.pie .grupo-1 .box h2{
+    color:#ad5312cd;
+    margin-bottom: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .box p{
+    color: #ad5312cd;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ad5312cd;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 3ms ease;
+}
+
+.pie .grupo-1 .red-social a:hover{
+    color: black;
+    background-color: #ad5312cd;
+}
+
+.pie .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ad5312cd;
+}
+
+.pie .grupo-2 small{
+    font-size: 10px;
+}
+
+@media screen and (max-width:800px){
+    .pie .grupo-1{
+        width:100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 25px 0px;
+    }
+}

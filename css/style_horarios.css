@@ -1,0 +1,473 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+#_header{
+    max-width: 100%;
+    width: 96%;
+    height: 150px;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 2%;
+    border-radius: 15px;
+    left: 1%;
+}
+
+.p__1 {
+    color: rgb(43, 42, 0);
+    font: 400 1em/1.5 "Neuton";
+    background: black; 
+    color: #ad5312cd;
+    text-align:center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double #ad5312cd;
+	border-width: 4px 0;
+	position: relative;
+    width:97%;
+    border-radius: 15px
+}
+  
+header .p__1 span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+      border-radius: 15px
+}
+
+.introduccion{
+    text-align: center;
+    color: #ad5312cd;
+    font-family: 'Raleway', sans-serif;
+    font-size: 225%;
+    margin-bottom: 6%;
+}
+
+#btn_sanpedro {
+    background-color: #ad5312cd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 2px 4px #0e0e0e;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    margin-top: 5px;
+
+}
+
+#btn_sanpedro:hover{
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+}
+
+#btn_rosario {
+    background-color: #ad5312cd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 2px 4px #0e0e0e;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    margin-top: 5px;
+
+}
+
+#btn_rosario:hover{
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+}
+
+#btn_bsas{
+    background-color: #ad5312cd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 2px 4px #0e0e0e;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    margin-top: 5px;
+
+}
+
+#btn_bsas:hover{
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+
+}
+
+#btn_cerrar{
+    background-color: #ad5312cd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 2px 4px #0e0e0e;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    margin-top: 5px;
+}
+
+#btn_cerrar:hover{
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+
+}
+
+#btn_cerrar1{
+    background-color: #ad5312cd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 2px 4px #0e0e0e;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    margin-top: 5px;
+}
+
+#btn_cerrar1:hover{
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+
+}
+
+#btn_cerrar2{
+    background-color: #ad5312cd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 2px 4px #0e0e0e;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    margin-top: 5px;
+}
+
+#btn_cerrar2:hover{
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+
+}
+
+.container_sanpedro{
+    display: flex;
+    background-color: #95959535;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+    font-family: 'Raleway', sans-serif;
+    color: #ad5312cd;
+}
+
+.container_rosario{
+    display: flex;
+    background-color: #95959535;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+    font-family: 'Raleway', sans-serif;
+    color: #ad5312cd;
+}
+
+.container_bsas{
+    display: flex;
+    background-color: #95959535;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+    font-family: 'Raleway', sans-serif;
+    color: #ad5312cd;
+}
+
+.mostrar{
+    visibility: visible;
+}
+
+.mostrar1{
+    visibility: visible;
+}
+
+.mostrar2{
+    visibility: visible;
+}
+
+.ventana__emergente{
+    background-color: #0e0e0e;
+    width: 600px;
+    max-width: 96%;
+    height: 500px;
+    padding: 30px 50px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px #0e0e0e;
+    text-align: center;
+}
+
+.ventana__emergente h1{
+    padding: 1rem;
+}
+
+.ventana__emergente p{
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    opacity: 0.8;
+    height: 270px;
+}
+
+
+.titulo__sp{
+    height: fit-content;
+}
+
+.titulo__sp{
+    font-size: 35px;
+}
+
+.container_horarios{
+    height: auto;
+    width: 96%;
+    margin: auto;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content: center;
+
+}
+
+.horario_sanPedro{
+    background-color: black;
+    width: 30%;
+    height: 500px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    color:#e0e0e0;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.horario_rosario{
+    background-color: black;
+    width: 30%;
+    height: 500px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    color:#e0e0e0;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.horario_buenosAires{
+    background-color: black;
+    width:30%;
+    height: 500px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin:auto;
+    color:#e0e0e0;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.pie_de_pagina{
+    text-align: center;
+    color: #ad5312cd;
+    font-family: 'Raleway', sans-serif;
+    font-size: 207%;
+    margin-bottom: 6%;
+}
+
+#descargar{
+    background-color: #ad5312cd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 2px 4px #0e0e0e;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    margin-top: 5px;
+}
+    
+#descargar:hover{
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+    
+}
+
+/*boton volver a pagina principal*/
+.menu_principal{
+    margin: 5% 0 0 12%;
+    width: 16%;
+
+}
+
+.boton_volver{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.volver{
+    text-decoration: none;
+    color: #ad5312;
+    border-radius: 2px;
+    padding: 12px;
+}
+
+.volver:hover{
+    background-color:#ad5312;
+    font-weight: bolder;
+    color: black;
+    cursor:pointer;
+    transition: 350ms;
+}
+
+/*footer*/
+.pie{
+    width: 100%;
+    background-color: black;
+    font-family:'Raleway', sans-serif;
+    margin-top: 10%;
+}
+
+.pie .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+    height: 100px;
+
+}
+
+.pie .grupo-1 .box figure{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie .grupo-1 .box figure a img{
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.pie .grupo-1 .box h2{
+    color:#ad5312cd;
+    margin-bottom: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .box p{
+    color: #ad5312cd;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ad5312cd;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 3ms ease;
+}
+
+.pie .grupo-1 .red-social a:hover{
+    color: black;
+    background-color: #ad5312cd;
+}
+
+.pie .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ad5312cd;
+}
+
+.pie .grupo-2 small{
+    font-size: 10px;
+}
+
+@media screen and (max-width:800px){
+    .pie .grupo-1{
+        width:100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 25px 0px;
+    }
+}

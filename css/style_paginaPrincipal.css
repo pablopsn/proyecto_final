@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+/*header del index*/
+#__header{
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    border-radius: 15px;
+    left: 4%;
+    max-width: 90%;
+}
+
+.fondo{
+    overflow: hidden;
+    position: relative;
+    margin-top: 0px;
+    margin: 1%;
+    border-radius: 15px;
+    left: 4%;
+    max-width: 90%;
+}
+.img_fon{
+    width:100%;
+    max-width: 1480px;
+    max-height: 690px;
+    overflow: hidden;
+}
+
+.p1 {
+    color: rgb(43, 42, 0);
+    font: 400 1em/1.5 "Neuton";
+    background: black; 
+    color: #ad5312cd;
+    text-align:center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double #ad5312cd;
+	border-width: 4px 0;
+    border-radius: 5px 5px 0 0;
+	position: relative;
+    width: 90%;
+    margin-left: 5%;
+}
+  
+header span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+
+/* Imagen fondo */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animacion */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 100s linear infinite;
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+}
+
+/* Animacion imagen */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+
+}
+
+/*navbar*/
+.navbar{
+    list-style: none;
+    max-width: 94%;
+    left: 5%;
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.navbar ul{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline;
+    margin: 0;
+}
+
+.navbar ul li a{
+    color: #ad5312cd;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover{
+    background-color: #ad5312cd;
+    border-radius: 4px;
+    color: black;
+    font-weight: bolder;
+    transition: 350ms;
+}
+
+.disp{
+    overflow: hidden;
+    position: relative;
+    margin-top: 0px;
+    margin: 1%;
+    border-radius: 15px;
+    left: 4%;
+    max-width: 90%;
+    
+}
+
+.img_flot{
+    width: 100%;
+    max-width: 1480px;
+    max-height: 690px;
+    overflow: hidden;
+}
+
+main{
+    font-family: 'Raleway', sans-serif;
+    background: black;
+    margin-left: 4%;
+    max-width: 90%;
+    padding: 3%;
+    border-style:solid;
+    border-width: 10px;
+    border-color: #ad5312cd;
+    border-radius: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.p2{
+    color: #ad5312cd;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+}
+
+.p3{
+    color: #ad5312cd;
+    background-color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.pie{
+    width: 100%;
+    background-color: black;
+    font-family:'Raleway', sans-serif;
+    margin-top: 10%;
+}
+
+.pie .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+    height: 100px;
+
+}
+
+.pie .grupo-1 .box figure{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie .grupo-1 .box figure a img{
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.pie .grupo-1 .box h2{
+    color:#ad5312cd;
+    margin-bottom: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .box p{
+    color: #ad5312cd;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ad5312cd;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 3ms ease;
+}
+
+.pie .grupo-1 .red-social a:hover{
+    color: black;
+    background-color: #ad5312cd;
+}
+
+.pie .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ad5312cd;
+}
+
+.pie .grupo-2 small{
+    font-size: 10px;
+}
+
+@media all and (min-width: 690px) and (max-width:1023px){
+
+    header{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar{
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    
+    .navegacion ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        float: none;
+    }
+    
+    .navegacion ul li{
+        display: block;
+    }
+
+}
+
+@media all and (max-width:599px){
+    .navbar{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    .navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        float: none;
+    }
+    
+    .navbar ul li{
+        display: block;
+    }
+    
+    .navbar ul li a{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
